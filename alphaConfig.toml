@@ -1,0 +1,43 @@
+#global key value pairs
+name = "John Doe"
+age = 30
+active = true
+floating = 3123293.312321
+offset_datetime = 2023-10-25T14:30:00-07:00
+local_datetime = 2023-10-25T14:30:00
+local_date = 2023-10-25
+local_time = 14:30:00
+languages = ["python", "cpp", "java"]
+
+# table
+[owner]
+name = "Alice"
+age = 28
+array_in_table = [1, 2, 3, 4, 5]
+
+[alphaset.alphaset_0]
+
+alpha1 = { name = "a1", param1 = 1 , param2 = [2,3] }
+alpha2 = { name = "a2", param1 = 2 , param2 = [4,5] }
+alpha3 = { name = "a3", param1 = 3 , param2 = [7,6] }
+
+[alphaset.alphaset_1]
+
+alpha1 = { name = "a4", param1 = 4 , param2 = [99.99,100.000] }
+alpha2 = { name = "a5", param1 = 5 , param2 = [4,5] }
+alpha3 = { name = "a6", param1 = 6 , param2 = [7.1321,6.32] }
+
+[alphaset.alphaset_2]
+
+alpha1 = { name = "a7", param1 = 7 , param2 = [2.23,3.23] }
+alpha2 = { name = "a8", param1 = 8 , param2 = [4.32,5.32] }
+alpha3 = { name = "a9", param1 = 9 , param2 = [7,6] }
+
+[[employees]]
+
+name = [ [ "gamma", "delta",], [ 1, 2,]]
+role = "Developer"
+
+[[employees]]
+name = "Eve"
+role = "Manager"
